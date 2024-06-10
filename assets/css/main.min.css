@@ -1035,8 +1035,8 @@ html.dark .modal-share__textarea {
 .button--copy:active,
 .button--primary:active {
   transition: 0s;
-  background-color: #6366f1;
-  border-color: #6366f1;
+  background-color: #2787B1;
+  border-color: #2787B1;
 }
 .button--copy {
   height: 42px;
@@ -1830,13 +1830,13 @@ html.dark .header-nav__link--main:hover {
   background: #f9fafb;
 }
 .header-popup__button--active {
-  color: #6366f1 !important;
+  color: #2787B1 !important;
 }
 .header-popup__button--active path[stroke] {
-  stroke: #6366f1;
+  stroke: #2787B1;
 }
 .header-popup__button--active path[fill] {
-  fill: #6366f1;
+  fill: #2787B1;
 }
 .header-popup--main {
   background: #374151;
@@ -1969,7 +1969,7 @@ html.dark .header-line {
   background-color: #4b5563;
 }
 .header-lang__select--active {
-  color: #6366f1;
+  color: #2787B1;
 }
 html.dark .header-lang {
   color: #fff;
@@ -1994,7 +1994,7 @@ html.dark .header-lang__select:hover {
   background-color: #4b5563;
 }
 html.dark .header-lang__select--active {
-  color: #6366f1;
+  color: #2787B1;
 }
 .footer {
   background-color: #1f2937;
@@ -2368,7 +2368,7 @@ html.dark .intro__calculator .calculator-content {
   font-weight: 600;
   color: #fff;
   border-radius: 10px;
-  background: #6366f1;
+  background: #2787B1;
 }
 .intro-link__text {
   display: flex;
@@ -2573,7 +2573,7 @@ html.dark .calculators-category__title {
   color: #2787B1;
 }
 html.dark .calculator-category__link {
-  color: #6366f1;
+  color: #2787B1;
 }
 html.dark .calculator-category__link:hover {
   color: #2787B1;
