@@ -40,6 +40,7 @@
       crossorigin
       type="font/woff2"
     />
+    <script src="https://cdn.tailwindcss.com"></script>
     <script type="text/javascript">
       window._ = document.getElementById.bind(document);
       window.$ = document.querySelector.bind(document);
@@ -53,8 +54,8 @@
   <body
     style="background-color: transparent !important; min-height: 0 !important"
   >
-    <div style="width: 100%">
-      <div style="width: 350px; float: left; padding: 15px">
+    <div class="w-full flex flex-col md:flex-row">
+      <div class="p-4">
         <div class="calculator-settings">
           <div class="calculator-setting" id="calculator_form">
             <div class="calculator-content col">
