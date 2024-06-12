@@ -16,20 +16,20 @@ function calculate(){
   let result = [];
   switch(type){
     case 'Common Phrases':
-      if(a.a!=null && a.b!=null) result.push(`${a.a*a.b/100} is ${a.a}% of ${a.b}`);
-      if(a.c!=null && a.d!=null) result.push(`${a.c} is ${a.c/a.d*100}% of ${a.d}`);
-      if(a.e!=null && a.f!=null) result.push(`${a.e} is ${a.f}% of ${a.e/a.f*100}`);
+      if(a.a!=null && a.b!=null) result.push(`${a.a*a.b/100} คือ ${a.a}% ของ ${a.b}`);
+      if(a.c!=null && a.d!=null) result.push(`${a.c} คือ ${a.c/a.d*100}% ของ ${a.d}`);
+      if(a.e!=null && a.f!=null) result.push(`${a.e} คือ ${a.f}% ของ ${a.e/a.f*100}`);
     break; 
     case 'Simple Percentage':
-      result.push(`${b.a}% of ${b.b} = ${b.a*b.b/100}`);
+      result.push(`${b.a}% ของ ${b.b} = ${b.a*b.b/100}`);
     break; 
     case 'Percentage Change':
-      if(c.a!=null && c.b!=null) result.push(`${c.a} increase ${c.b}% = ${c.a*(1+c.b/100)}`);
-      if(c.c!=null && c.d!=null) result.push(`${c.c} decrease ${c.d}% = ${c.c*(1-c.d/100)}`);
+      if(c.a!=null && c.b!=null) result.push(`${c.a} เพิ่มขึ้น ${c.b}% = ${c.a*(1+c.b/100)}`);
+      if(c.c!=null && c.d!=null) result.push(`${c.c} ลดลง ${c.d}% = ${c.c*(1-c.d/100)}`);
     break; 
     case 'Percentage Difference': 
-      result.push(`Difference of ${d.a} and ${d.b} is ${math.abs(d.a-d.b)/(d.a+d.b)*200}%,`);
-      result.push(`and ${d.b} is a ${math.abs(d.a-d.b)/d.a*100}% increase of ${d.a}`);
+      result.push(`ความแตกต่างของ ${d.a} และ ${d.b} คือ ${math.abs(d.a-d.b)/(d.a+d.b)*200}%,`);
+      result.push(`และ ${d.b} คือ ${math.abs(d.a-d.b)/d.a*100}% เพิ่มขึ้นของ ${d.a}`);
     break;
   }
 
